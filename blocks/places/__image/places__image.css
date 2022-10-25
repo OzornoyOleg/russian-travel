@@ -1,0 +1,31 @@
+.places__image {
+  max-width: 460px;
+  max-height: 460px;
+  object-fit: cover;
+  grid-row: 2;
+}
+
+@media screen and (max-width: 1124px) {
+  .places__image {
+    max-width: 440px;
+    max-height: 440px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places__image {
+    object-fit: cover;
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places__image {
+    object-fit: cover;
+    max-width: 320px;
+    max-height: 320px;
+    grid-row: 3;
+  }
+}

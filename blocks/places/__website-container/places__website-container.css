@@ -1,0 +1,12 @@
+.places__website-container {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 568px) {
+  .places__website-container {
+    align-self: stretch;
+    width: 288px;
+    margin: 0 auto;
+    grid-row: 2;
+  }
+}
